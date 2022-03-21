@@ -3,6 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber"
 import { ContactShadows, Environment, useGLTF, OrbitControls } from "@react-three/drei"
 import { HexColorPicker } from "react-colorful"
 import { proxy, useSnapshot } from "valtio"
+import { ZapparCamera, InstantTracker, ZapparCanvas, BrowserCompatibility } from "@zappar/zappar-react-three-fiber"
 
 // Using a Valtio state model to bridge reactivity between
 // the canvas and the dom, both can write to it and/or react to it.
